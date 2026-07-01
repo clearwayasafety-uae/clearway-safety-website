@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Clearway Safety icon">
+  <rect width="64" height="64" rx="16" fill="#173b2d"/>
+  <path d="M16 42h32" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+  <path d="M20 22h24" stroke="#f8f4ea" stroke-width="5" stroke-linecap="round"/>
+  <path d="M24 18v12m16-12v12" stroke="#f8f4ea" stroke-width="5" stroke-linecap="round"/>
+  <path d="M24 34h16" stroke="#fde68a" stroke-width="4" stroke-linecap="round"/>
+</svg>

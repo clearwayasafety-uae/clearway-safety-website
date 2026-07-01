@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Clearway Safety">
+  <rect width="1200" height="630" fill="#173b2d"/>
+  <rect x="80" y="80" width="1040" height="470" rx="36" fill="#f8f4ea"/>
+  <circle cx="270" cy="315" r="110" fill="#f59e0b"/>
+  <path d="M200 360h160" stroke="#173b2d" stroke-width="20" stroke-linecap="round"/>
+  <path d="M218 240h124" stroke="#173b2d" stroke-width="20" stroke-linecap="round"/>
+  <path d="M218 285h124" stroke="#35594a" stroke-width="20" stroke-linecap="round"/>
+  <text x="470" y="280" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#173b2d">CLEARWAY SAFETY</text>
+  <text x="470" y="350" font-family="Arial, sans-serif" font-size="32" fill="#35594a">Industrial Safety Equipment Supplier</text>
+  <text x="470" y="410" font-family="Arial, sans-serif" font-size="28" fill="#f59e0b">PPE • Road Safety • Fire Safety • Traffic Safety</text>
+</svg>
