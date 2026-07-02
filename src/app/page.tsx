@@ -2,38 +2,15 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white text-gray-900">
 
-      {/* TOP BAR */}
-      <div className="bg-green-950 text-white text-center text-sm py-2">
-        Industrial Safety Supplier in Abu Dhabi | UAE Wide Delivery
-      </div>
-
-      {/* NAVBAR */}
-      <header className="flex justify-between items-center px-6 py-4 shadow-md sticky top-0 bg-white z-50">
-        <h1 className="font-bold text-lg text-green-900">
-          CLEARWAY SAFETY
+      {/* HERO SECTION */}
+      <section className="bg-green-900 text-white text-center py-24 px-6">
+        <h1 className="text-4xl md:text-6xl font-bold">
+          Safety Equipment Supplier in UAE
         </h1>
 
-        <nav className="hidden md:flex gap-6 text-sm">
-          <a href="#">Home</a>
-          <a href="#">Products</a>
-          <a href="#">Industries</a>
-          <a href="#">Blog</a>
-          <a href="#">Contact</a>
-        </nav>
-
-        <button className="bg-orange-500 text-white px-4 py-2 rounded-lg">
-          Request Quote
-        </button>
-      </header>
-
-      {/* HERO */}
-      <section className="bg-green-900 text-white text-center py-24 px-6">
-        <h2 className="text-4xl md:text-6xl font-bold">
-          Safety Equipment Supplier in UAE
-        </h2>
-
-        <p className="mt-4 text-lg text-gray-200">
-          PPE • Road Safety • Fire Safety • Traffic Safety Solutions
+        <p className="mt-4 text-lg text-gray-200 max-w-2xl mx-auto">
+          PPE • Road Safety • Fire Safety • Industrial Safety Solutions
+          across Abu Dhabi, Dubai & UAE
         </p>
 
         <div className="mt-6 flex justify-center gap-4 flex-wrap">
@@ -49,7 +26,7 @@ export default function Home() {
 
       {/* FEATURES */}
       <section className="py-16 px-6 text-center">
-        <h3 className="text-3xl font-bold mb-10">Why Choose Us</h3>
+        <h2 className="text-3xl font-bold mb-10">Why Choose Us</h2>
 
         <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {[
@@ -57,7 +34,7 @@ export default function Home() {
             "Industrial Grade Quality",
             "Fast Response Quotes",
             "Bulk Supply Available",
-            "Trusted Supplier",
+            "Trusted Supplier in Abu Dhabi",
             "Competitive Pricing"
           ].map((item, i) => (
             <div key={i} className="border p-6 rounded-xl shadow-sm">
@@ -69,16 +46,37 @@ export default function Home() {
 
       {/* INDUSTRIES */}
       <section className="bg-gray-100 py-16 text-center px-6">
-        <h3 className="text-3xl font-bold mb-6">Industries We Serve</h3>
-        <p className="text-gray-700">
-          Construction • Oil & Gas • Factories • Government • Hospitals • Schools • Hotels
+        <h2 className="text-3xl font-bold mb-6">Industries We Serve</h2>
+
+        <p className="text-gray-700 max-w-3xl mx-auto">
+          Construction • Oil & Gas • Factories • Government Projects • Hospitals • Schools • Hotels
+        </p>
+      </section>
+
+      {/* UAE SEO SECTION */}
+      <section className="py-16 px-6 max-w-5xl mx-auto text-center">
+        <h2 className="text-2xl font-bold mb-4">
+          Trusted Safety Supplier in Abu Dhabi & UAE
+        </h2>
+
+        <p className="text-gray-600 leading-relaxed">
+          We are a leading supplier of industrial safety equipment in Abu Dhabi,
+          providing high-quality PPE, traffic safety products, fire safety equipment,
+          and construction safety solutions across UAE. We support wholesale and retail supply
+          for all industries.
         </p>
       </section>
 
       {/* CTA */}
       <section className="bg-orange-500 text-white text-center py-16">
-        <h3 className="text-3xl font-bold">Need Safety Equipment in UAE?</h3>
-        <p className="mt-2">Get fast quotation within 24 hours</p>
+        <h2 className="text-3xl font-bold">
+          Need Safety Equipment in UAE?
+        </h2>
+
+        <p className="mt-2">
+          Get fast quotation within 24 hours
+        </p>
+
         <button className="mt-4 bg-black px-6 py-3 rounded-lg">
           Request Quote
         </button>
