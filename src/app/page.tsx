@@ -67,6 +67,24 @@ export default function Home() {
         </p>
       </section>
 
+      {/* BLOG SECTION (ADDED FOR SEO) */}
+      <section className="py-16 px-6 text-center bg-gray-50">
+        <h2 className="text-2xl font-bold mb-4">
+          Safety Knowledge & Guides
+        </h2>
+
+        <p className="text-gray-600 mb-6">
+          Explore our latest safety equipment guides in UAE & Abu Dhabi
+        </p>
+
+        <a
+          href="/blog"
+          className="bg-green-900 text-white px-6 py-3 rounded-lg inline-block"
+        >
+          Visit Blog
+        </a>
+      </section>
+
       {/* CTA */}
       <section className="bg-orange-500 text-white text-center py-16">
         <h2 className="text-3xl font-bold">
