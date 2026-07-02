@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white shadow-md">
@@ -11,19 +13,19 @@ export default function Header() {
         </h1>
 
         <nav className="hidden md:flex gap-6 text-sm">
-          <a href="/">Home</a>
-          <a href="/products">Products</a>
-          <a href="/industries">Industries</a>
-          <a href="/blog">Blog</a>
-          <a href="/contact">Contact</a>
+          <Link href="/">Home</Link>
+          <Link href="/products">Products</Link>
+          <Link href="/industries">Industries</Link>
+          <Link href="/blog">Blog</Link>
+          <Link href="/contact">Contact</Link>
         </nav>
         
-        <a
+        <Link
           href="/contact"
           className="bg-orange-500 text-white px-4 py-2 rounded-lg text-sm"
         >
           Request Quote
-        </a>
+        </Link>
       </div>
     </header>
   );
