@@ -14,11 +14,11 @@ export default function Home() {
         <div className="flex items-center gap-3">
           {/* Logo with 141px width and 58px height */}
           <img 
-            src="/logo.png" 
-            alt="Clearway Safety Logo" 
-            style={{ width: "141px", height: "58px" }} 
-            className="object-contain" 
-          />
+  src="logo.jpg" 
+  alt="Clearway Safety Logo" 
+  style={{ width: "141px", height: "58px" }} 
+  className="object-contain" 
+/>
           <div className="text-2xl font-black tracking-tight">
             CLEARWAY <span className="text-[#fdbf11]">SAFETY</span>
           </div>
@@ -163,7 +163,7 @@ export default function Home() {
           </div>
           <div className="flex items-start gap-3">
             <span className="text-[#fdbf11] text-xl">⏱️</span>
-            <div><p className="font-bold">Open Hours</p><p className="text-slate-400 text-xs">Mon - Sat: 8:00 AM - 7:00 PM</p></div>
+            <div><p className="font-bold">Open Hours</p><p className="text-slate-400 text-xs">Mon - Sat: 8:30 AM - 7:00 PM</p></div>
           </div>
         </div>
       </div>
