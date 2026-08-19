@@ -11,14 +11,15 @@ export default function Home() {
 
       {/* 2. Navigation Bar */}
       <nav className="bg-white py-4 px-6 md:px-12 flex justify-between items-center shadow-sm">
-        <div className="flex items-center gap-3">
-          {/* Logo with 141px width and 58px height */}
+        <div className="flex items-center">
+          {/* Logo at Top Left - Text removed */}
           <img 
-  src="logo.jpg" 
-  alt="Clearway Safety Logo" 
-  style={{ width: "180px", height: "75px" }} 
-  className="object-contain" 
-/>
+            src="/logo.jpg" 
+            alt="Clearway Safety Logo" 
+            style={{ width: "180px", height: "75px" }} 
+            className="object-contain" 
+          />
+        </div>
         <div className="hidden md:flex space-x-6 font-semibold text-sm text-slate-700">
           <a href="/" className="hover:text-blue-900">Home</a>
           <a href="#products" className="hover:text-blue-900">Our Products</a>
@@ -159,7 +160,7 @@ export default function Home() {
           </div>
           <div className="flex items-start gap-3">
             <span className="text-[#fdbf11] text-xl">⏱️</span>
-            <div><p className="font-bold">Open Hours</p><p className="text-slate-400 text-xs">Mon - Sat: 8:30 AM - 7:00 PM</p></div>
+            <div><p className="font-bold">Open Hours</p><p className="text-slate-400 text-xs">Mon - Sat: 8:00 AM - 7:00 PM</p></div>
           </div>
         </div>
       </div>
