@@ -152,14 +152,14 @@ export default function Home() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-left">
           {[
-            { cat: "Site Utilities", title: "Anti Slip Tapes & Markings", icon: "🚧" },
-            { cat: "Traffic Management", title: "Traffic Cones & Barriers", icon: "🛑" },
-            { cat: "Emergency Care", title: "First Aid Boxes & Kits", icon: "🩹" },
-            { cat: "PPE & Safety Wear", title: "Safety Jackets, Gloves & More", icon: "🦺" },
-            { cat: "Electrical Safety", title: "Insulating Gloves & Mats", icon: "⚡" },
-            { cat: "Fire Safety", title: "Extinguishers & Accessories", icon: "🧯" },
-            { cat: "Workplace Safety", title: "Signages, Mirrors & More", icon: "⚠️" },
-            { cat: "Road Safety", title: "Speed Humps, Delineators & More", icon: "🔶" }
+            { cat: "Site Utilities", title: "Anti Slip Tapes & Markings In UAE", icon: "🚧" },
+            { cat: "Traffic Management", title: "Traffic Cones & Barriers In UAE", icon: "🛑" },
+            { cat: "Emergency Care", title: "First Aid Boxes & Kits In UAE", icon: "🩹" },
+            { cat: "PPE & Safety Wear", title: "Safety Jackets, Gloves & More In UAE", icon: "🦺" },
+            { cat: "Electrical Safety", title: "Insulating Gloves & Mats In UAE", icon: "⚡" },
+            { cat: "Fire Safety", title: "Extinguishers & Accessories In UAE", icon: "🧯" },
+            { cat: "Workplace Safety", title: "Signages, Mirrors & More In UAE", icon: "⚠️" },
+            { cat: "Road Safety", title: "Speed Humps, Delineators & More In UAE", icon: "🔶" }
           ].map((item, i) => (
             <div key={i} className="bg-white p-6 rounded-lg shadow-sm border border-slate-200 hover:border-[#fdbf11] transition group">
               <div className="text-3xl mb-4 text-blue-900 bg-slate-50 w-12 h-12 flex items-center justify-center rounded-md border border-slate-100">
