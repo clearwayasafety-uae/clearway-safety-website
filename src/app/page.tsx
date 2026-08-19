@@ -5,7 +5,7 @@ export default function Home() {
       {/* 1. Top Yellow Bar */}
       <div className="bg-[#fdbf11] py-2 px-6 flex flex-wrap justify-center md:justify-around text-xs md:text-sm font-bold text-slate-900">
         <span>📍 Mussafah, Abu Dhabi, UAE</span>
-        <span>🚚 Fast Delivery Across UAE</span>
+        <span>🛒 Wholesale & Retail</span>
         <span>🛡️ Quality Products | Competitive Prices</span>
       </div>
 
@@ -78,10 +78,10 @@ export default function Home() {
               </div>
             </div>
             <div className="flex items-start gap-4">
-              <span className="text-[#fdbf11] text-2xl">🚚</span>
+              <span className="text-[#fdbf11] text-2xl">🤝</span>
               <div>
-                <h4 className="font-bold text-white">Fast & Reliable Delivery</h4>
-                <p className="text-xs text-slate-400">Quick delivery across UAE</p>
+                <h4 className="font-bold text-white">Bulk & Custom Orders</h4>
+                <p className="text-xs text-slate-400">Committed to Excellence with Reliable Execution</p>
               </div>
             </div>
           </div>
@@ -105,8 +105,8 @@ export default function Home() {
             <div><p className="font-bold text-sm">Expert Support</p><p className="text-xs text-slate-500">We're here to help you</p></div>
           </div>
           <div className="flex items-center justify-center md:justify-start gap-3 border-l pl-4">
-            <span className="text-2xl">⏱️</span>
-            <div><p className="font-bold text-sm">Fast Delivery</p><p className="text-xs text-slate-500">Quick delivery across UAE</p></div>
+            <span className="text-2xl">🤝</span>
+            <div><p className="font-bold text-sm">Committed to Excellence</p><p className="text-xs text-slate-500">Reliable professional execution</p></div>
           </div>
         </div>
       </div>
