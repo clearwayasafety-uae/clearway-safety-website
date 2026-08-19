@@ -23,6 +23,7 @@ export default function Home() {
           <a href="/" className="hover:text-blue-900">Home</a>
           <a href="#products" className="hover:text-blue-900">Our Products</a>
           <a href="#about" className="hover:text-blue-900">About Us</a>
+          <a href="#blog" className="hover:text-blue-900">Latest Blogs</a>
           <a href="#contact" className="hover:text-blue-900">Contact Us</a>
         </div>
         <a 
@@ -114,18 +115,19 @@ export default function Home() {
         </div>
       </div>
 
-      {/* 5. Product Categories Grid */}
+      {/* 5. Product Categories Grid with View All Option */}
       <div id="products" className="max-w-7xl mx-auto px-6 md:px-12 py-16 text-center">
-        <h2 className="text-2xl font-black mb-2">Our Comprehensive Safety Range</h2>
+        <h2 className="text-2xl md:text-3xl font-black mb-2">Our Comprehensive Safety Range (100+ Items)</h2>
+        <p className="text-slate-600 text-sm mb-2">Explore our extensive industrial safety inventory available for wholesale & retail.</p>
         <div className="w-16 h-1 bg-[#fdbf11] mx-auto mb-10"></div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-left">
           {[
-            { cat: "Site Utilities", title: "Anti Slip Tapes", icon: "🚧" },
+            { cat: "Site Utilities", title: "Anti Slip Tapes & Markings", icon: "🚧" },
             { cat: "Traffic Management", title: "Traffic Cones & Barriers", icon: "🛑" },
             { cat: "Emergency Care", title: "First Aid Boxes & Kits", icon: "🩹" },
             { cat: "PPE & Safety Wear", title: "Safety Jackets, Gloves & More", icon: "🦺" },
-            { cat: "Electrical Safety", title: "Insulating Gloves & More", icon: "⚡" },
+            { cat: "Electrical Safety", title: "Insulating Gloves & Mats", icon: "⚡" },
             { cat: "Fire Safety", title: "Extinguishers & Accessories", icon: "🧯" },
             { cat: "Workplace Safety", title: "Signages, Mirrors & More", icon: "⚠️" },
             { cat: "Road Safety", title: "Speed Humps, Delineators & More", icon: "🔶" }
@@ -135,14 +137,54 @@ export default function Home() {
                 {item.icon}
               </div>
               <p className="text-xs font-bold text-blue-600 uppercase tracking-wider mb-1">{item.cat}</p>
-              <h4 className="font-bold text-slate-900 mb-4">{item.title}</h4>
-              <a href="#contact" className="text-xs font-bold text-blue-900 hover:text-[#fdbf11]">Explore Product Details →</a>
+              <h3 className="font-bold text-slate-900 mb-4">{item.title}</h3>
+              <a href="#contact" className="text-xs font-bold text-blue-900 hover:text-[#fdbf11]">Explore Details →</a>
             </div>
           ))}
         </div>
+
+        {/* View All Button for 100+ Items */}
+        <div className="mt-10">
+          <a 
+            href="#contact" 
+            className="inline-block bg-[#0a183d] text-white px-8 py-3 rounded-md font-bold text-sm hover:bg-blue-950 transition shadow-md"
+          >
+            View All 100+ Products & Catalog →
+          </a>
+        </div>
       </div>
 
-      {/* 6. Footer Contact Bar */}
+      {/* 6. Latest Blog / News Section */}
+      <div id="blog" className="bg-white py-16 px-6 md:px-12 border-t border-slate-200">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-black mb-2">Latest Safety Insights & News</h2>
+            <div className="w-16 h-1 bg-[#fdbf11] mx-auto"></div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-slate-50 p-6 rounded-lg border border-slate-200">
+              <p className="text-xs text-blue-600 font-bold mb-2">SAFETY GUIDELINES • UAE</p>
+              <h3 className="font-bold text-lg mb-2 text-slate-900">Essential PPE Requirements for Industrial Sites in Abu Dhabi</h3>
+              <p className="text-xs text-slate-600 mb-4">Learn about standard safety equipment compliance and regulations across Mussafah industrial areas.</p>
+              <a href="#contact" className="text-xs font-bold text-blue-900 hover:text-[#fdbf11]">Read More →</a>
+            </div>
+            <div className="bg-slate-50 p-6 rounded-lg border border-slate-200">
+              <p className="text-xs text-blue-600 font-bold mb-2">WORKPLACE SAFETY</p>
+              <h3 className="font-bold text-lg mb-2 text-slate-900">Importance of High-Quality Fire Extinguishers & Accessories</h3>
+              <p className="text-xs text-slate-600 mb-4">Discover the right fire safety gear needed to ensure commercial and industrial property compliance.</p>
+              <a href="#contact" className="text-xs font-bold text-blue-900 hover:text-[#fdbf11]">Read More →</a>
+            </div>
+            <div className="bg-slate-50 p-6 rounded-lg border border-slate-200">
+              <p className="text-xs text-blue-600 font-bold mb-2">TRAFFIC MANAGEMENT</p>
+              <h3 className="font-bold text-lg mb-2 text-slate-900">Effective Road Safety Solutions with Speed Humps & Cones</h3>
+              <p className="text-xs text-slate-600 mb-4">Improve site traffic flow and hazard prevention using heavy-duty road safety items.</p>
+              <a href="#contact" className="text-xs font-bold text-blue-900 hover:text-[#fdbf11]">Read More →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* 7. Footer Contact Bar */}
       <div id="contact" className="bg-[#0a183d] text-white py-12 px-6 md:px-12 border-t border-slate-800">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
           <div className="flex items-start gap-3">
