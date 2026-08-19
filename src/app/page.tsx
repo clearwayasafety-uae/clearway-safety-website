@@ -18,6 +18,9 @@ export default function Home() {
           <p className="text-[10px] md:text-xs font-bold text-slate-500 uppercase tracking-widest">
             AND GENERAL TRADING L.L.C - O.P.C
           </p>
+          <p className="text-[10px] md:text-xs font-semibold text-slate-600 mt-0.5" dir="rtl">
+            شركة كليروэй للسلامة والتجارة العامة ذ.م.م - ش.و.و
+          </p>
         </div>
         <div className="hidden md:flex space-x-6 font-semibold text-sm text-slate-700">
           <a href="/" className="hover:text-blue-900">Home</a>
