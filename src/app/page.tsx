@@ -38,10 +38,10 @@ export default function Home() {
 
       {/* 3. Hero Section (Deep Navy Blue) */}
       <div className="bg-[#0a183d] text-white py-16 px-6 md:px-12">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
           
-          {/* Left Side: Text & Button */}
-          <div>
+          {/* Left Side: Text & Button (Cols 1 to 5) */}
+          <div className="md:col-span-5">
             <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4">
               Premium Industrial <br />
               <span className="text-[#fdbf11]">Safety Products & PPE</span>
@@ -58,8 +58,8 @@ export default function Home() {
             </a>
           </div>
 
-          {/* Right Side: Key Highlights */}
-          <div id="why-choose-us" className="border-l-2 border-slate-700 pl-6 md:pl-10 space-y-6">
+          {/* Middle: Key Highlights (Cols 6 to 8) */}
+          <div id="why-choose-us" className="md:col-span-3 border-l-2 border-slate-700 pl-6 space-y-6">
             <div className="flex items-start gap-4">
               <span className="text-[#fdbf11] text-2xl">📦</span>
               <div>
@@ -87,6 +87,32 @@ export default function Home() {
                 <h4 className="font-bold text-white">Bulk & Custom Orders</h4>
                 <p className="text-xs text-slate-400">Committed to Excellence with Reliable Execution</p>
               </div>
+            </div>
+          </div>
+
+          {/* Right Side: Attractive Contact Card (Cols 9 to 12) */}
+          <div className="md:col-span-4 bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border-2 border-[#fdbf11]/40 shadow-2xl text-center relative overflow-hidden">
+            <div className="absolute -top-10 -right-10 w-32 h-32 bg-[#fdbf11]/10 rounded-full blur-xl"></div>
+            <span className="inline-block bg-[#fdbf11]/20 text-[#fdbf11] text-xs font-bold px-3 py-1 rounded-full mb-3 uppercase tracking-wider">
+              Quick Inquiry / Order
+            </span>
+            <h3 className="text-slate-300 font-semibold text-sm mb-2">Call Us Directly</h3>
+            <a 
+              href="tel:+971561080825" 
+              className="text-2xl md:text-3xl font-black text-white hover:text-[#fdbf11] transition tracking-tight block mb-4"
+            >
+              +971 56 108 0825
+            </a>
+            <div className="border-t border-slate-700 pt-4 flex flex-col gap-2">
+              <a 
+                href="https://wa.me/971561080825" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-[#00a859] text-white py-2.5 px-4 rounded-lg font-bold text-sm flex items-center justify-center gap-2 hover:bg-emerald-700 transition shadow-md"
+              >
+                <span>💬</span> Chat on WhatsApp
+              </a>
+              <p className="text-[11px] text-slate-400 mt-1">Mon - Sat: 8:30 AM - 7:00 PM</p>
             </div>
           </div>
 
@@ -143,13 +169,13 @@ export default function Home() {
           ))}
         </div>
 
-        {/* View All Button for 100+ Items */}
+        {/* View All Button */}
         <div className="mt-10">
           <a 
             href="#contact" 
             className="inline-block bg-[#0a183d] text-white px-8 py-3 rounded-md font-bold text-sm hover:bg-blue-950 transition shadow-md"
           >
-            View All  →
+            View All →
           </a>
         </div>
       </div>
