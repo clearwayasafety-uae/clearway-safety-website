@@ -14,7 +14,7 @@ export default function Home() {
         <div className="flex items-center gap-3">
           {/* Logo with 141px width and 58px height */}
           <img 
-            src="/logo.jpg" 
+            src="/logo.png" 
             alt="Clearway Safety Logo" 
             style={{ width: "141px", height: "58px" }} 
             className="object-contain" 
