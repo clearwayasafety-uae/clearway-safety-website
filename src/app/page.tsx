@@ -122,25 +122,21 @@ export default function Home() {
         </div>
       </div>
 
-      {/* 4. Mini Features Strip */}
+      {/* 4. Wholesale & Retail Big Banner */}
       <div className="max-w-7xl mx-auto -mt-6 px-6 relative z-10">
-        <div className="bg-white rounded-xl shadow-md p-6 grid grid-cols-2 md:grid-cols-4 gap-6 border border-slate-100 text-center md:text-left">
-          <div className="flex items-center justify-center md:justify-start gap-3">
-            <span className="text-2xl">🛡️</span>
-            <div><p className="font-bold text-sm">Quality Assured</p><p className="text-xs text-slate-500">Premium quality products</p></div>
-          </div>
-          <div className="flex items-center justify-center md:justify-start gap-3 border-l pl-4">
-            <span className="text-2xl">🏷️</span>
-            <div><p className="font-bold text-sm">Best Prices</p><p className="text-xs text-slate-500">Competitive wholesale & retail</p></div>
-          </div>
-          <div className="flex items-center justify-center md:justify-start gap-3 border-l pl-4">
-            <span className="text-2xl">🎧</span>
-            <div><p className="font-bold text-sm">Expert Support</p><p className="text-xs text-slate-500">We're here to help you</p></div>
-          </div>
-          <div className="flex items-center justify-center md:justify-start gap-3 border-l pl-4">
-            <span className="text-2xl">🤝</span>
-            <div><p className="font-bold text-sm">Committed to Excellence</p><p className="text-xs text-slate-500">Reliable professional execution</p></div>
-          </div>
+        <div className="bg-gradient-to-r from-[#0a183d] via-blue-950 to-[#0a183d] rounded-2xl shadow-xl p-8 border-2 border-[#fdbf11]/50 text-center relative overflow-hidden">
+          <div className="absolute -left-10 -bottom-10 w-40 h-40 bg-[#fdbf11]/10 rounded-full blur-2xl"></div>
+          <div className="absolute -right-10 -top-10 w-40 h-40 bg-[#fdbf11]/10 rounded-full blur-2xl"></div>
+          
+          <span className="text-[#fdbf11] text-xs md:text-sm font-bold uppercase tracking-widest block mb-1">
+            Industrial & Marine Safety Solutions • الحلول الصناعية والبحريّة للسلامة
+          </span>
+          <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase drop-shadow-md">
+            WHOLESALE <span className="text-[#fdbf11]">&</span> RETAIL
+          </h2>
+          <p className="text-slate-300 text-xs md:text-sm mt-2 font-medium">
+            Your Premier Partner for Bulk Supplies and Individual Safety Equipment in UAE
+          </p>
         </div>
       </div>
 
@@ -152,14 +148,14 @@ export default function Home() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-left">
           {[
-            { cat: "Site Utilities", title: "Anti Slip Tapes & Markings In UAE", icon: "🚧" },
-            { cat: "Traffic Management", title: "Traffic Cones & Barriers In UAE", icon: "🛑" },
-            { cat: "Emergency Care", title: "First Aid Boxes & Kits In UAE", icon: "🩹" },
-            { cat: "PPE & Safety Wear", title: "Safety Jackets, Gloves & More In UAE", icon: "🦺" },
-            { cat: "Electrical Safety", title: "Insulating Gloves & Mats In UAE", icon: "⚡" },
-            { cat: "Fire Safety", title: "Extinguishers & Accessories In UAE", icon: "🧯" },
-            { cat: "Workplace Safety", title: "Signages, Mirrors & More In UAE", icon: "⚠️" },
-            { cat: "Road Safety", title: "Speed Humps, Delineators & More In UAE", icon: "🔶" }
+            { cat: "Site Utilities", title: "Anti Slip Tapes & Markings", icon: "🚧" },
+            { cat: "Traffic Management", title: "Traffic Cones & Barriers", icon: "🛑" },
+            { cat: "Emergency Care", title: "First Aid Boxes & Kits", icon: "🩹" },
+            { cat: "PPE & Safety Wear", title: "Safety Jackets, Gloves & More", icon: "🦺" },
+            { cat: "Electrical Safety", title: "Insulating Gloves & Mats", icon: "⚡" },
+            { cat: "Fire Safety", title: "Extinguishers & Accessories", icon: "🧯" },
+            { cat: "Workplace Safety", title: "Signages, Mirrors & More", icon: "⚠️" },
+            { cat: "Road Safety", title: "Speed Humps, Delineators & More", icon: "🔶" }
           ].map((item, i) => (
             <div key={i} className="bg-white p-6 rounded-lg shadow-sm border border-slate-200 hover:border-[#fdbf11] transition group">
               <div className="text-3xl mb-4 text-blue-900 bg-slate-50 w-12 h-12 flex items-center justify-center rounded-md border border-slate-100">
