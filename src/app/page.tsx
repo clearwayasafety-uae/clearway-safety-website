@@ -16,7 +16,7 @@ export default function Home() {
           <img 
   src="logo.jpg" 
   alt="Clearway Safety Logo" 
-  style={{ width: "141px", height: "58px" }} 
+  style={{ width: "180px", height: "75px" }} 
   className="object-contain" 
 />
           <div className="text-2xl font-black tracking-tight">
