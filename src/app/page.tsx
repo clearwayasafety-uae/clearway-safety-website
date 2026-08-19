@@ -19,10 +19,6 @@ export default function Home() {
   style={{ width: "180px", height: "75px" }} 
   className="object-contain" 
 />
-          <div className="text-2xl font-black tracking-tight">
-            CLEARWAY <span className="text-[#fdbf11]">SAFETY</span>
-          </div>
-        </div>
         <div className="hidden md:flex space-x-6 font-semibold text-sm text-slate-700">
           <a href="/" className="hover:text-blue-900">Home</a>
           <a href="#products" className="hover:text-blue-900">Our Products</a>
