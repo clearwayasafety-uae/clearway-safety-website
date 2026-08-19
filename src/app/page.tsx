@@ -4,9 +4,9 @@ export default function Home() {
       
       {/* 1. Top Yellow Bar */}
       <div className="bg-[#fdbf11] py-2 px-6 flex flex-wrap justify-center md:justify-around text-xs md:text-sm font-bold text-slate-900">
-        <span>📍 Mussafah-M10, Abu Dhabi - UAE</span>
-        <span>🛒 Wholesale & Retail</span>
-        <span>🛡️ Quality Products | Competitive Prices</span>
+        <span>📍 Mussafah-M10, Abu Dhabi - UAE | مصفح، أبوظبي</span>
+        <span>🛒 Wholesale & Retail | جملة ومفرق</span>
+        <span>🛡️ Quality Products | منتجات عالية الجودة</span>
       </div>
 
       {/* 2. Navigation Bar */}
@@ -90,16 +90,16 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Right Side: Attractive Contact Card (Cols 9 to 12) */}
+          {/* Right Side: Attractive Contact Card with Arabic (Cols 9 to 12) */}
           <div className="md:col-span-4 bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border-2 border-[#fdbf11]/40 shadow-2xl text-center relative overflow-hidden">
             <div className="absolute -top-10 -right-10 w-32 h-32 bg-[#fdbf11]/10 rounded-full blur-xl"></div>
-            <span className="inline-block bg-[#fdbf11]/20 text-[#fdbf11] text-xs font-bold px-3 py-1 rounded-full mb-3 uppercase tracking-wider">
-              Quick Inquiry / Order
+            <span className="inline-block bg-[#fdbf11]/20 text-[#fdbf11] text-xs font-bold px-3 py-1 rounded-full mb-2 uppercase tracking-wider">
+              Quick Inquiry / استفسار سريع
             </span>
-            <h3 className="text-slate-300 font-semibold text-sm mb-2">Call Us Directly</h3>
+            <h3 className="text-slate-300 font-semibold text-xs mb-1">Call Us Directly / اتصل بنا مباشدة</h3>
             <a 
               href="tel:+971561080825" 
-              className="text-2xl md:text-3xl font-black text-white hover:text-[#fdbf11] transition tracking-tight block mb-4"
+              className="text-2xl md:text-3xl font-black text-white hover:text-[#fdbf11] transition tracking-tight block mb-3"
             >
               +971 56 108 0825
             </a>
@@ -110,7 +110,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="bg-[#00a859] text-white py-2.5 px-4 rounded-lg font-bold text-sm flex items-center justify-center gap-2 hover:bg-emerald-700 transition shadow-md"
               >
-                <span>💬</span> Chat on WhatsApp
+                <span>💬</span> Chat on WhatsApp / واتساب
               </a>
               <p className="text-[11px] text-slate-400 mt-1">Mon - Sat: 8:30 AM - 7:00 PM</p>
             </div>
@@ -215,19 +215,19 @@ export default function Home() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
           <div className="flex items-start gap-3">
             <span className="text-[#fdbf11] text-xl">📍</span>
-            <div><p className="font-bold">Visit Our Store</p><p className="text-slate-400 text-xs">Mussafah-M10, Abu Dhabi - UAE</p></div>
+            <div><p className="font-bold">Visit Our Store / متجرنا</p><p className="text-slate-400 text-xs">Mussafah-M10, Abu Dhabi - UAE</p></div>
           </div>
           <div className="flex items-start gap-3">
             <span className="text-[#fdbf11] text-xl">📞</span>
-            <div><p className="font-bold">Call Us</p><p className="text-slate-400 text-xs">+971 56 108 0825</p></div>
+            <div><p className="font-bold">Call Us / اتصل بنا</p><p className="text-slate-400 text-xs">+971 56 108 0825</p></div>
           </div>
           <div className="flex items-start gap-3">
             <span className="text-[#fdbf11] text-xl">✉️</span>
-            <div><p className="font-bold">Email Us</p><p className="text-slate-400 text-xs">clearwayuae@gmail.com</p></div>
+            <div><p className="font-bold">Email Us / البريد</p><p className="text-slate-400 text-xs">clearwayuae@gmail.com</p></div>
           </div>
           <div className="flex items-start gap-3">
             <span className="text-[#fdbf11] text-xl">⏱️</span>
-            <div><p className="font-bold">Open Hours</p><p className="text-slate-400 text-xs">Mon - Sat: 8:30 AM - 7:00 PM</p></div>
+            <div><p className="font-bold">Open Hours / أوقات العمل</p><p className="text-slate-400 text-xs">Mon - Sat: 8:30 AM - 7:00 PM</p></div>
           </div>
         </div>
       </div>
