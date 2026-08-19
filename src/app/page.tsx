@@ -11,8 +11,17 @@ export default function Home() {
 
       {/* 2. Navigation Bar */}
       <nav className="bg-white py-4 px-6 md:px-12 flex justify-between items-center shadow-sm">
-        <div className="text-2xl font-black tracking-tight">
-          CLEARWAY <span className="text-[#fdbf11]">SAFETY</span>
+        <div className="flex items-center gap-3">
+          {/* Logo with 141px width and 58px height */}
+          <img 
+            src="/logo.jpg" 
+            alt="Clearway Safety Logo" 
+            style={{ width: "141px", height: "58px" }} 
+            className="object-contain" 
+          />
+          <div className="text-2xl font-black tracking-tight">
+            CLEARWAY <span className="text-[#fdbf11]">SAFETY</span>
+          </div>
         </div>
         <div className="hidden md:flex space-x-6 font-semibold text-sm text-slate-700">
           <a href="/" className="hover:text-blue-900">Home</a>
@@ -137,34 +146,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* 6. Latest Blogs Section */}
-      <div id="blog" className="max-w-7xl mx-auto px-6 md:px-12 pb-16">
-        <div className="flex justify-between items-center mb-10">
-          <h2 className="text-2xl font-black">Latest Blogs & Safety Updates</h2>
-          <a href="#blog" className="border border-[#fdbf11] text-slate-900 px-4 py-2 rounded-md text-sm font-bold hover:bg-yellow-50 transition inline-block">
-            View All Blogs →
-          </a>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {[
-            { tag: "Workplace Safety", title: "Why Anti Slip Tapes Are Essential for Workplace Safety?" },
-            { tag: "Traffic Management", title: "How to Choose the Right Traffic Cone for Your Needs" },
-            { tag: "PPE Guide", title: "The Importance of High-Quality PPE in the Workplace" },
-            { tag: "Fire Safety", title: "How to Maintain Fire Extinguishers for Maximum Safety" }
-          ].map((blog, i) => (
-            <div key={i} className="bg-white p-6 rounded-lg shadow-sm border border-slate-200 flex flex-col justify-between">
-              <div>
-                <span className="text-[10px] font-bold bg-slate-100 text-slate-600 px-2 py-1 rounded">{blog.tag}</span>
-                <h4 className="font-bold text-slate-900 mt-4 mb-4 text-sm">{blog.title}</h4>
-              </div>
-              <a href="#contact" className="text-xs font-bold text-blue-900 hover:text-[#fdbf11]">Read More →</a>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* 7. Footer Contact Bar */}
+      {/* 6. Footer Contact Bar */}
       <div id="contact" className="bg-[#0a183d] text-white py-12 px-6 md:px-12 border-t border-slate-800">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
           <div className="flex items-start gap-3">
