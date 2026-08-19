@@ -17,9 +17,7 @@ export default function Home() {
         <div className="hidden md:flex space-x-6 font-semibold text-sm text-slate-700">
           <a href="/" className="hover:text-blue-900">Home</a>
           <a href="#products" className="hover:text-blue-900">Our Products</a>
-          <a href="#why-choose-us" className="hover:text-blue-900">Why Choose Us</a>
           <a href="#about" className="hover:text-blue-900">About Us</a>
-          <a href="#blog" className="hover:text-blue-900">Blog</a>
           <a href="#contact" className="hover:text-blue-900">Contact Us</a>
         </div>
         <a 
@@ -50,7 +48,7 @@ export default function Home() {
               href="#products" 
               className="bg-[#fdbf11] text-slate-900 px-6 py-3 rounded-md font-bold inline-flex items-center gap-2 hover:bg-yellow-500 transition"
             >
-              Explore Our Products →
+              Our Brand →
             </a>
           </div>
 
