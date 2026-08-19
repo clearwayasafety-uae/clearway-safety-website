@@ -39,6 +39,8 @@ export default function Home() {
       {/* 3. Hero Section (Deep Navy Blue) */}
       <div className="bg-[#0a183d] text-white py-16 px-6 md:px-12">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          
+          {/* Left Side: Text & Button */}
           <div>
             <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4">
               Premium Industrial <br />
@@ -46,7 +48,7 @@ export default function Home() {
             </h1>
             <p className="text-lg font-semibold text-slate-200 mb-3">Your Trusted Wholesale & Retail Supplier in Abu Dhabi</p>
             <p className="text-slate-400 text-sm mb-8 max-w-lg">
-              Explore our high-quality safety products for every industry.
+              Explore 5000+ high-quality safety products for every industry.
             </p>
             <a 
               href="#products" 
@@ -56,26 +58,67 @@ export default function Home() {
             </a>
           </div>
 
+          {/* Right Side: Key Highlights */}
           <div id="why-choose-us" className="border-l-2 border-slate-700 pl-6 md:pl-10 space-y-6">
             <div className="flex items-start gap-4">
               <span className="text-[#fdbf11] text-2xl">📦</span>
-              <div><h4 className="font-bold text-white">5000+ Products</h4></div>
+              <div>
+                <h4 className="font-bold text-white">5000+ Products</h4>
+                <p className="text-xs text-slate-400">Wide range for every need</p>
+              </div>
             </div>
             <div className="flex items-start gap-4">
               <span className="text-[#fdbf11] text-2xl">🛒</span>
-              <div><h4 className="font-bold text-white">Wholesale & Retail</h4></div>
+              <div>
+                <h4 className="font-bold text-white">Wholesale & Retail</h4>
+                <p className="text-xs text-slate-400">Best prices for all customers</p>
+              </div>
             </div>
             <div className="flex items-start gap-4">
               <span className="text-[#fdbf11] text-2xl">🛡️</span>
-              <div><h4 className="font-bold text-white">Trusted Supplier</h4></div>
+              <div>
+                <h4 className="font-bold text-white">Trusted Supplier</h4>
+                <p className="text-xs text-slate-400">Serving across Abu Dhabi & UAE</p>
+              </div>
             </div>
+            <div className="flex items-start gap-4">
+              <span className="text-[#fdbf11] text-2xl">🤝</span>
+              <div>
+                <h4 className="font-bold text-white">Bulk & Custom Orders</h4>
+                <p className="text-xs text-slate-400">Committed to Excellence with Reliable Execution</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      {/* 4. Mini Features Strip */}
+      <div className="max-w-7xl mx-auto -mt-6 px-6 relative z-10">
+        <div className="bg-white rounded-xl shadow-md p-6 grid grid-cols-2 md:grid-cols-4 gap-6 border border-slate-100 text-center md:text-left">
+          <div className="flex items-center justify-center md:justify-start gap-3">
+            <span className="text-2xl">🛡️</span>
+            <div><p className="font-bold text-sm">Quality Assured</p><p className="text-xs text-slate-500">Premium quality products</p></div>
+          </div>
+          <div className="flex items-center justify-center md:justify-start gap-3 border-l pl-4">
+            <span className="text-2xl">🏷️</span>
+            <div><p className="font-bold text-sm">Best Prices</p><p className="text-xs text-slate-500">Competitive wholesale & retail</p></div>
+          </div>
+          <div className="flex items-center justify-center md:justify-start gap-3 border-l pl-4">
+            <span className="text-2xl">🎧</span>
+            <div><p className="font-bold text-sm">Expert Support</p><p className="text-xs text-slate-500">We're here to help you</p></div>
+          </div>
+          <div className="flex items-center justify-center md:justify-start gap-3 border-l pl-4">
+            <span className="text-2xl">🤝</span>
+            <div><p className="font-bold text-sm">Committed to Excellence</p><p className="text-xs text-slate-500">Reliable professional execution</p></div>
           </div>
         </div>
       </div>
 
-      {/* 4. Product Categories Grid */}
+      {/* 5. Product Categories Grid with View All Option */}
       <div id="products" className="max-w-7xl mx-auto px-6 md:px-12 py-16 text-center">
-        <h2 className="text-2xl md:text-3xl font-black mb-2">Our Comprehensive Safety Range</h2>
+        <h2 className="text-2xl md:text-3xl font-black mb-2">Our Comprehensive Safety Range </h2>
+        <p className="text-slate-600 text-sm mb-2">Explore our extensive industrial safety inventory available for wholesale & retail.</p>
         <div className="w-16 h-1 bg-[#fdbf11] mx-auto mb-10"></div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-left">
@@ -89,7 +132,7 @@ export default function Home() {
             { cat: "Workplace Safety", title: "Signages, Mirrors & More", icon: "⚠️" },
             { cat: "Road Safety", title: "Speed Humps, Delineators & More", icon: "🔶" }
           ].map((item, i) => (
-            <div key={i} className="bg-white p-6 rounded-lg shadow-sm border border-slate-200 hover:border-[#fdbf11] transition">
+            <div key={i} className="bg-white p-6 rounded-lg shadow-sm border border-slate-200 hover:border-[#fdbf11] transition group">
               <div className="text-3xl mb-4 text-blue-900 bg-slate-50 w-12 h-12 flex items-center justify-center rounded-md border border-slate-100">
                 {item.icon}
               </div>
@@ -100,50 +143,69 @@ export default function Home() {
           ))}
         </div>
 
-        {/* View All Button */}
+        {/* View All Button for 100+ Items */}
         <div className="mt-10">
           <a 
             href="#contact" 
             className="inline-block bg-[#0a183d] text-white px-8 py-3 rounded-md font-bold text-sm hover:bg-blue-950 transition shadow-md"
           >
-            View All →
+            View All  →
           </a>
         </div>
       </div>
 
-      {/* 5. Latest Blog Section */}
+      {/* 6. Latest Blog / News Section */}
       <div id="blog" className="bg-white py-16 px-6 md:px-12 border-t border-slate-200">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-black mb-10 text-center">Latest Safety Insights</h2>
+          <div className="text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-black mb-2">Latest Safety Insights & News</h2>
+            <div className="w-16 h-1 bg-[#fdbf11] mx-auto"></div>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-slate-50 p-6 rounded-lg border border-slate-200">
-              <h3 className="font-bold text-lg mb-2">Industrial PPE Compliance</h3>
-              <p className="text-xs text-slate-600 mb-4">Essential standards for UAE industrial sites.</p>
-              <a href="#contact" className="text-xs font-bold text-blue-900">Read More →</a>
+              <p className="text-xs text-blue-600 font-bold mb-2">SAFETY GUIDELINES • UAE</p>
+              <h3 className="font-bold text-lg mb-2 text-slate-900">Essential PPE Requirements for Industrial Sites in Abu Dhabi</h3>
+              <p className="text-xs text-slate-600 mb-4">Learn about standard safety equipment compliance and regulations across Mussafah industrial areas.</p>
+              <a href="#contact" className="text-xs font-bold text-blue-900 hover:text-[#fdbf11]">Read More →</a>
             </div>
             <div className="bg-slate-50 p-6 rounded-lg border border-slate-200">
-              <h3 className="font-bold text-lg mb-2">Fire Safety Solutions</h3>
-              <p className="text-xs text-slate-600 mb-4">Importance of reliable extinguisher maintenance.</p>
-              <a href="#contact" className="text-xs font-bold text-blue-900">Read More →</a>
+              <p className="text-xs text-blue-600 font-bold mb-2">WORKPLACE SAFETY</p>
+              <h3 className="font-bold text-lg mb-2 text-slate-900">Importance of High-Quality Fire Extinguishers & Accessories</h3>
+              <p className="text-xs text-slate-600 mb-4">Discover the right fire safety gear needed to ensure commercial and industrial property compliance.</p>
+              <a href="#contact" className="text-xs font-bold text-blue-900 hover:text-[#fdbf11]">Read More →</a>
             </div>
             <div className="bg-slate-50 p-6 rounded-lg border border-slate-200">
-              <h3 className="font-bold text-lg mb-2">Traffic Hazard Control</h3>
-              <p className="text-xs text-slate-600 mb-4">Preventing site accidents with effective signals.</p>
-              <a href="#contact" className="text-xs font-bold text-blue-900">Read More →</a>
+              <p className="text-xs text-blue-600 font-bold mb-2">TRAFFIC MANAGEMENT</p>
+              <h3 className="font-bold text-lg mb-2 text-slate-900">Effective Road Safety Solutions with Speed Humps & Cones</h3>
+              <p className="text-xs text-slate-600 mb-4">Improve site traffic flow and hazard prevention using heavy-duty road safety items.</p>
+              <a href="#contact" className="text-xs font-bold text-blue-900 hover:text-[#fdbf11]">Read More →</a>
             </div>
           </div>
         </div>
       </div>
 
-      {/* 6. Footer Contact Bar */}
+      {/* 7. Footer Contact Bar */}
       <div id="contact" className="bg-[#0a183d] text-white py-12 px-6 md:px-12 border-t border-slate-800">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
-          <div><p className="font-bold text-[#fdbf11]">📍 Location</p><p>Mussafah-M10, Abu Dhabi</p></div>
-          <div><p className="font-bold text-[#fdbf11]">📞 Phone</p><p>+971 56 108 0825</p></div>
-          <div><p className="font-bold text-[#fdbf11]">✉️ Email</p><p>clearwayuae@gmail.com</p></div>
-          <div><p className="font-bold text-[#fdbf11]">⏱️ Hours</p><p>Mon - Sat: 8:30 AM - 7:00 PM</p></div>
+          <div className="flex items-start gap-3">
+            <span className="text-[#fdbf11] text-xl">📍</span>
+            <div><p className="font-bold">Visit Our Store</p><p className="text-slate-400 text-xs">Mussafah-M10, Abu Dhabi - UAE</p></div>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="text-[#fdbf11] text-xl">📞</span>
+            <div><p className="font-bold">Call Us</p><p className="text-slate-400 text-xs">+971 56 108 0825</p></div>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="text-[#fdbf11] text-xl">✉️</span>
+            <div><p className="font-bold">Email Us</p><p className="text-slate-400 text-xs">clearwayuae@gmail.com</p></div>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="text-[#fdbf11] text-xl">⏱️</span>
+            <div><p className="font-bold">Open Hours</p><p className="text-slate-400 text-xs">Mon - Sat: 8:30 AM - 7:00 PM</p></div>
+          </div>
         </div>
       </div>
+
     </div>
   );
 }
