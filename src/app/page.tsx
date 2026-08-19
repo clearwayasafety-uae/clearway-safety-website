@@ -4,7 +4,7 @@ export default function Home() {
       
       {/* 1. Top Yellow Bar */}
       <div className="bg-[#fdbf11] py-2 px-6 flex flex-wrap justify-center md:justify-around text-xs md:text-sm font-bold text-slate-900">
-        <span>📍 Mussafah, Abu Dhabi, UAE</span>
+        <span>📍 Mussafah-M10, Abu Dhabi - UAE</span>
         <span>🛒 Wholesale & Retail</span>
         <span>🛡️ Quality Products | Competitive Prices</span>
       </div>
@@ -21,7 +21,7 @@ export default function Home() {
           <a href="#contact" className="hover:text-blue-900">Contact Us</a>
         </div>
         <a 
-          href="https://wa.me/971501234567" 
+          href="https://wa.me/971561080825" 
           target="_blank" 
           rel="noopener noreferrer"
           className="bg-[#00a859] text-white px-5 py-2 rounded-md font-semibold text-sm flex items-center gap-2 hover:bg-emerald-700 transition"
@@ -169,19 +169,19 @@ export default function Home() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
           <div className="flex items-start gap-3">
             <span className="text-[#fdbf11] text-xl">📍</span>
-            <div><p className="font-bold">Visit Our Store</p><p className="text-slate-400 text-xs">Mussafah, Abu Dhabi, UAE</p></div>
+            <div><p className="font-bold">Visit Our Store</p><p className="text-slate-400 text-xs">Mussafah-M10, Abu Dhabi - UAE</p></div>
           </div>
           <div className="flex items-start gap-3">
             <span className="text-[#fdbf11] text-xl">📞</span>
-            <div><p className="font-bold">Call Us</p><p className="text-slate-400 text-xs">+971 50 123 4567</p></div>
+            <div><p className="font-bold">Call Us</p><p className="text-slate-400 text-xs">+971 56 108 0825</p></div>
           </div>
           <div className="flex items-start gap-3">
             <span className="text-[#fdbf11] text-xl">✉️</span>
-            <div><p className="font-bold">Email Us</p><p className="text-slate-400 text-xs">info@clearwaysafety.com</p></div>
+            <div><p className="font-bold">Email Us</p><p className="text-slate-400 text-xs">clearwayuae@gmail.com</p></div>
           </div>
           <div className="flex items-start gap-3">
             <span className="text-[#fdbf11] text-xl">⏱️</span>
-            <div><p className="font-bold">Open Hours</p><p className="text-slate-400 text-xs">Sat - Thu: 8:00 AM - 6:00 PM</p></div>
+            <div><p className="font-bold">Open Hours</p><p className="text-slate-400 text-xs">Mon - Sat: 8:00 AM - 7:00 PM</p></div>
           </div>
         </div>
       </div>
