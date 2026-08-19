@@ -122,20 +122,17 @@ export default function Home() {
         </div>
       </div>
 
-      {/* 4. Wholesale & Retail Big Banner */}
+      {/* 4. Full-Width Wholesale & Retail Banner */}
       <div className="max-w-7xl mx-auto -mt-6 px-6 relative z-10">
-        <div className="bg-gradient-to-r from-[#0a183d] via-blue-950 to-[#0a183d] rounded-2xl shadow-xl p-8 border-2 border-[#fdbf11]/50 text-center relative overflow-hidden">
-          <div className="absolute -left-10 -bottom-10 w-40 h-40 bg-[#fdbf11]/10 rounded-full blur-2xl"></div>
-          <div className="absolute -right-10 -top-10 w-40 h-40 bg-[#fdbf11]/10 rounded-full blur-2xl"></div>
+        <div className="bg-gradient-to-r from-[#0a183d] via-blue-900 to-[#0a183d] rounded-2xl shadow-2xl py-10 px-8 border-2 border-[#fdbf11] text-center relative overflow-hidden">
+          <div className="absolute -left-10 -bottom-10 w-48 h-48 bg-[#fdbf11]/10 rounded-full blur-3xl"></div>
+          <div className="absolute -right-10 -top-10 w-48 h-48 bg-[#fdbf11]/10 rounded-full blur-3xl"></div>
           
-          <span className="text-[#fdbf11] text-xs md:text-sm font-bold uppercase tracking-widest block mb-1">
-            Industrial & Marine Safety Solutions • الحلول الصناعية والبحريّة للسلامة
-          </span>
-          <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase drop-shadow-md">
+          <h2 className="text-4xl md:text-6xl font-black text-white tracking-tight uppercase drop-shadow-lg mb-2">
             WHOLESALE <span className="text-[#fdbf11]">&</span> RETAIL
           </h2>
-          <p className="text-slate-300 text-xs md:text-sm mt-2 font-medium">
-            Your Premier Partner for Bulk Supplies and Individual Safety Equipment in UAE
+          <p className="text-slate-200 text-sm md:text-base font-semibold tracking-wide">
+            Your Premier Partner for Bulk Supplies and Individual Safety Equipment in UAE • شريكك الأول للتوريد بالجملة والمفرّق
           </p>
         </div>
       </div>
